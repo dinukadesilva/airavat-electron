@@ -17,6 +17,7 @@ function createWindow () {
     mainWindow = null
   })
 
+  // Handle external links : external links are opened on the os default browser.
   mainWindow.webContents.on('new-window', function (event, url) {
     event.preventDefault()
     shell.openExternal(url)
