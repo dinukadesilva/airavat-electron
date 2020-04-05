@@ -5,14 +5,19 @@
 yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
-
 ### Compiles and minifies for production
 ```
 yarn build
+```
+
+### Run desktop app
+```
+yarn start
+```
+
+### Build and Run desktop app
+```
+yarn dev
 ```
 
 ### Lints and fixes files
